@@ -1,0 +1,23 @@
+{
+  "name": "chikitoperobonito",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api.js",
+  "scripts": {
+    "ci": "node ci.js",
+    "api": "nonde api.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GravityAbrahxm/ChikitoPeroBonito.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GravityAbrahxm/ChikitoPeroBonito/issues"
+  },
+  "homepage": "https://github.com/GravityAbrahxm/ChikitoPeroBonito#readme",
+  "dependencies": {
+    "axios": "^1.3.4"
+  }
+}
