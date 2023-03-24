@@ -2,7 +2,7 @@ const axios = require('axios');
 
 const fetchWeatherData = async () => {
     const { data } = await axios.get(
-        'api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=cd9b2efc5f8105b448519cd546228900'
+        'https://raw.githubusercontent.com/GravityAbrahxm/PelisApi/main/peliculas.json?fbclid=IwAR21XUH9IX5cx5GkhQA_XkI1MmeG8NHjnAkCRCUHPz95vyRS7fW6deLzjmI'
     );
     console.log(data);
 }
